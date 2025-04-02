@@ -2,18 +2,21 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className="bg-[#191919] bg-[url('/src/assets/Background-rOK.png')] bg-cover bg-center text-gray-300 text-1xl text-center w-full h-[100vh]">
+    <div className="bg-[#191919] bg-[url('/src/assets/Background-rOK.png')] bg-cover bg-center text-gray-300 text-1xl text-center w-full h-[100vh] pl-12 pr-16 pt-4">
       
-      <div className="header min-w-full flex justify-between">
+      <div className="header min-w-full flex justify-between sticky">
         <div className="logo m-2">logo</div>
-        <div className="about m-2">about</div>
+        <div className="about_section m-2 font-bold text-xl flex flex-col justify-center items-center">
+          <div className="about">About</div>
+          <div className="bottom_bar border-4 w-[75%] border-[#7C7C7C] rounded-md"></div>
+        </div>
       </div>
 
       <div className="content min-w-full h-[81%] mt-2 grid grid-cols-12 flex-grow">
         <div className="left col-span-4 flex flex-col justify-end">
           <div className="content m-2 flex flex-col text-left">
             <div className="title mb-2 text-2xl">
-              <div> AFRICANS RISING{"\n"}BUSINESS CONSULTING</div>
+              <div className="font-rockwell"> AFRICANS RISING{"\n"}BUSINESS CONSULTING</div>
             </div>
             <div className="description text-[#7C7C7C]">
               Aliquam sodales interdum ipsum. Pellentesque 
@@ -35,7 +38,7 @@ const Home = () => {
             />
           </div>
         </div>
-        <div className="aside text-orange-600 fixed right-[-120px] top-[250px] transform rotate-90 col-span-1">
+        <div className="aside text-orange-600 fixed right-[-70px] top-[323px] transform rotate-90 col-span-1">
           <nav className=''>
             <ul className='flex'>
               <li className='m-1'>Home</li>
@@ -48,7 +51,7 @@ const Home = () => {
       </div>
 
       <div className="scroll_button">
-        Sroll
+        SCROLL
       </div>
 
     </div>

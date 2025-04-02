@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'rockwell';
+  src: url('./assets/fonts/rockwell/Rockwell.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gilroy';
+  src: url('./assets/fonts/gilroy/Gilroy-Bold.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 
 *{
   margin: 0;
@@ -12,7 +26,8 @@
 html, body{
   width: 100vw;
   height: 100vh;
-  font-family: sans-serif;
+  overflow-x: hidden;
+  font-family: 'gilroy', sans-serif;
 }
 
 .loading-screen{
