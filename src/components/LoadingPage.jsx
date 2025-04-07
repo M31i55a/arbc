@@ -1,4 +1,5 @@
 import  { useEffect } from 'react';
+import DynamicBackground from './DynamicBackground';
 import gsap from 'gsap';
 
 const LoadingPage = () => {
@@ -112,6 +113,7 @@ const LoadingPage = () => {
 
   return (
     <div className="App">
+      
       <div className="website-content">
         {/* <div className="header">
           <div className="h1">

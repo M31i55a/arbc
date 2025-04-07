@@ -24,7 +24,7 @@ const CubeWithParallax = () => {
 
 const Service2 = () => {
     return (
-<div className="bg-[#191919] bg-[url('/src/assets/Background-rOK.png')] bg-cover bg-center text-gray-300 text-1xl text-center w-full h-[100vh] pl-12 pr-16 pt-4">
+<div id='service2' className="bg-[#191919] bg-[url('/src/assets/Background-rOK.png')] bg-cover bg-center text-gray-300 text-1xl text-center w-full h-[100vh] pl-12 pr-16 pt-4">
  
  <div className="header min-w-full flex justify-between">
    <div className="logo m-2">
